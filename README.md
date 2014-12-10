@@ -9,4 +9,4 @@ The second algorithm is the Bailey-Borwein-Plouffe series. main2.c calls the fun
 n2 = 5 is needed to produce an absolute error of less than 10^-6.
 
 Calling pi_leibniz with n=1000000 takes .0067 seconds, or 67 milliseconds. 
-Calling pi_bbp with n=5 takes .000021 seconds, or .0021 milliseconds. pi_bbp is significantly faster than calling the leibniz series. 
+Calling pi_bbp with n=5 takes .00000021 seconds, or .0021 milliseconds. pi_bbp is significantly faster than calling the leibniz series. 
